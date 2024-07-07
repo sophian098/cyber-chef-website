@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyber Chef</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  
+  <body>
+    <div class="nav-bar">
+      <a href="{{ url_for('index') }}">
+        <div class="cyber-chef-bar">
+          <img class="logo" src="static/photos/food-logo.png" alt="cyber chef logo"/>
+          <p class="logo-title">CYBER CHEF</p>
+        </div>
+      </a>
+      <nav>
+        <ul class="side-bar">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#hacks">HACKS</a></li>
+          <li><a href="#recipes">RECIPES</a></li>
+          <li><a href="#sign-in">SIGN IN</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="header">
+        <h1 class="header-title">Cyber Chef</h1>
+      </div>
+     
+    <h1>Recipes</h1>
+    
+    <div class="recipes">
+      
+      <a href="https://www.tasteofhome.com/recipes/homemade-ravioli/">
+      <div class="box">
+        <img class="food-img" src="https://live.staticflickr.com/5095/5587774639_94e31871f7_c.jpg" alt="ravioli"/>
+        <h4><span class="title">RBC Ravioli</span></h4>
+        <div class="interact-box">
+          <img class="interact" src="static/photos/clock.png" alt="clock"/>
+          <p>2h 10mins</p>
+          <img class="interact" src="static/photos/heart.png" alt="likes"/>
+          <p>3.5k</p>
+          <img class="interact" src="static/photos/comment.png" alt="comments"/>
+          <p>1.6k</p>
+        </div>  
+      </div>
+      </a>
+      
+      <div class="box">
+        <img class="food-img" src="https://i2.pickpik.com/photos/763/772/886/fudge-sugar-marshmallow-sweet-preview.jpg" alt="fudge"/>
+        <h4><span class="title">Firewall Fudge</span></h4>
+        <div class="interact-box">
+          <img class="interact" src="static/photos/clock.png" alt="clock"/>
+          <p>1h 15mins</p>
+          <img class="interact" src="static/photos/heart.png" alt="likes"/>
+          <p>2.6k</p>
+          <img class="interact" src="static/photos/comment.png" alt="comments"/>
+          <p>1.1k</p>
+        </div>
+      </div>
+      
+      <div class="box">
+        <img class="food-img" src="https://www.allrecipes.com/thmb/Bwkz2gVOQUJcPYSzOJgD94XDi5Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18874-Real-Italian-Calzones-ddmfs-127-4x3-1-a30a0e72801f42bcb0643ed4b57e8a3c.jpg" alt="calzone"/>
+        <h4><span class="title">Cyber Calzone</span></h4>
+        <div class="interact-box">
+          <img class="interact" src="static/photos/clock.png" alt="clock"/>
+          <p>1h 35mins</p>
+          <img class="interact" src="static/photos/heart.png" alt="likes"/>
+          <p>4.1k</p>
+          <img class="interact" src="static/photos/comment.png" alt="comments"/>
+          <p>2.5k</p>
+        </div>
+      </div>
+      
+      <div class="box">
+        <img class="food-img" src="https://i2.pickpik.com/photos/421/382/533/noodles-dan-dan-food-traditional-preview.jpg" alt="noodles"/>
+        <h4><span class="title">Network Noodles</span></h4>
+        <div class="interact-box">
+          <img class="interact" src="static/photos/clock.png" alt="clock"/>
+          <p>1h 25mins</p>
+          <img class="interact" src="static/photos/heart.png" alt="likes"/>
+          <p>3.2k</p>
+          <img class="interact" src="static/photos/comment.png" alt="comments"/>
+          <p>2.1k</p>
+        </div>
+      </div>
+      
+      <div class="box">
+        <img class="food-img" src="https://handletheheat.com/wp-content/uploads/2015/06/beef-empanadas-SQUARE.jpg" alt="emapandas"/>
+        <h4><span class="title">Encrypt Empanadas</span></h4>
+        <div class="interact-box">
+          <img class="interact" src="static/photos/clock.png" alt="clock"/>
+          <p>3h</p>
+          <img class="interact" src="static/photos/heart.png" alt="likes"/>
+          <p>2.8k</p>
+          <img class="interact" src="static/photos/comment.png" alt="comments"/>
+          <p>1.1k</p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="elevate">
+      <img class="elevtate-img" src="https://cdn.winsightmedia.com/platform/files/public/800x420/chef-demo-cooking-saucing-dish.jpg" alt="chef cooking meal"/>
+      <div class="elevate-text">
+        <h2>The Future of Cooking</h2>
+        <p class="elevate-paragraph">Elevating meals with a digital touch! Cyber Chef incorporates the old and new with traditional recipes and futuristic security features.</p>
+      </div>
+    </div>
+    
+    <h1>Hack The Cuisine</h1>
+    
+    <div class="cuisine">
+      <div class="box-2">
+        <img class="cooking-img" src="https://admin.sriboga.com/storage/news/1685519127-chef-preparing-food-ingredients-2021-09-24-03-57-22-utc%20(1).webp" alt="ingredients"/>
+        <h4><span class="title-2">Ingredients</span></h4>
+      </div>
+      
+      <div class="box-2">
+        <img class="cooking-img" src="https://media.istockphoto.com/id/175240339/photo/chef-making-muffins-batter.jpg?s=612x612&w=0&k=20&c=DKy-ZcEMkw7IYgS327_DZ3ol6L2hHJ3kXoOV7sIkdTQ=" alt="mixing ingredients"/>
+        <h4><span class="title-2">Mixing</span></h4>
+      </div>
+      
+      <a href="{{ url_for('cooking') }}">
+        <div class="box-2">
+          <img class="cooking-img" src="https://www.wcrf-uk.org/wp-content/uploads/2021/06/588595864r-LS.jpg" alt="cooking"/>
+          <h4><span class="title-2">Cooking</span></h4>
+        </div>
+      </a>
+    </div>
+    
+    <div class="feedback">
+      <img class="feedback-img" src="https://t4.ftcdn.net/jpg/06/35/20/15/360_F_635201516_G2TFpFPoFA6utXYNgFlgPJGwU24mj6CJ.jpg" alt="chef"/>
+      <div class="feedback-square">
+        <h4 class="feedback-title">Chef Channa</h4> 
+        <h5 class="feedback-subtitle">Chef &amp; Coder</h5>
+        <p class="feedback-paragraph"> “I began using Cyber Chef last year, and it’s absolutely amazing! The ability to find recipes, post my own, 
+          and find a community of other chefs made cooking more enjoyable. Also, the assured security and information on cyber safety makes me 
+          feel that my data is well-protected. I can’t wait to see how this website grows and how the cooking community grows along with it!”</p>
+      </div>
+    </div>
+    
+    <footer>
+        <p class="footer-author">Creation by Sophia Nguyen</p>
+        <p class="footer-paragraph">Cyber Chef Created for CLC x RBC</p>
+    </footer>
+    
+  </body>
+  
+</html>

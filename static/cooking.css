@@ -1,0 +1,159 @@
+body{
+  background-color:rgb(260, 240, 240);
+}
+
+.logo{
+  height:50px;
+  width:50px;
+}
+
+.logo-title{
+  margin-left:10px;
+}
+
+.cyber-chef-bar{
+  display:flex;
+  margin-left:50px;
+  padding:14px;
+  align-items:center;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+li{
+  float:right;
+  padding:30px;
+  margin:0px;
+}
+
+li:hover{
+  background-color:rgb(230, 190, 190);
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.nav-bar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color:rgb(250, 190, 190);
+  position:sticky;
+  z-index:10;
+  top:0;
+  box-shadow: 0px 0px 3px;
+}
+
+.cooking-img{
+  width:360px;
+  height:200px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:solid;
+  border-radius:25px;
+  border:solid;
+}
+
+.title-2{
+  font-size:40px;
+  margin-top:-20px;
+}
+
+.cuisine{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  gap:155px;
+  margin-top:40px;
+}
+
+.ingredient-form{
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:250px;
+text-align:center;
+border:solid;
+border-radius:25px;
+padding:50px;
+background-color:rgb(250, 210, 210);
+}
+
+.ingredient-label{
+margin-bottom:20px;
+font-size:20px;
+}
+
+button{
+display:block;
+width:100%;
+padding:20px;
+background-color:rgb(250, 210, 210);
+transition: all .2s ease-in-out;
+border-radius:25px;
+margin:20px 0px;
+font-size:20px;
+}
+
+button:hover{
+transform:scale(0.95);
+background-color:rgb(250, 190, 190);
+box-shadow: 0px 0px 10px;
+}
+
+.button-form{
+width:300px;
+}
+
+.output p:first-of-type {
+margin-top: 0; /* Ensure no margin at the top of the first <p> element */
+}
+
+.output{
+width:250px;
+font-size:20px;
+text-align:center;
+border:solid;
+border-radius:25px;
+padding:50px;
+background-color:rgb(250, 210, 210);
+}
+
+.form-form{
+display:flex;
+gap:190px;
+}
+
+.form-body{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:190px;
+margin:25px 0px;
+}
+
+.footer-author{
+font-size:22px;
+}
+
+.footer-paragraph{
+font-size:18px;
+margin-top:-4px;
+}
+
+footer{
+text-align:center;
+background-color:rgb(250, 190, 190);
+padding:60px;
+box-shadow: 0px 0px 3px;
+margin-top:100px;
+}

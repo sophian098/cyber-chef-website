@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cooking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cooking.css') }}">
+  </head>
+  
+  <body>
+    <div class="nav-bar">
+      <a href="{{ url_for('index') }}">
+        <div class="cyber-chef-bar">
+          <img class="logo" src="static/photos/food-logo.png" alt="cyber chef logo"/>
+          <p class="logo-title">CYBER CHEF</p>
+        </div>
+      </a>
+      <nav>
+        <ul class="side-bar">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#hacks">HACKS</a></li>
+          <li><a href="#recipes">RECIPES</a></li>
+          <li><a href="#sign-in">SIGN IN</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="cuisine">
+    <div class="ingredients">
+      <img class="cooking-img" src="https://admin.sriboga.com/storage/news/1685519127-chef-preparing-food-ingredients-2021-09-24-03-57-22-utc%20(1).webp" alt="ingredients"/>
+      <h1><span class="title-2">INGREDIENTS</span></h1>
+    </div>
+    
+    <div class="mixing">
+      <img class="cooking-img" src="https://media.istockphoto.com/id/175240339/photo/chef-making-muffins-batter.jpg?s=612x612&w=0&k=20&c=DKy-ZcEMkw7IYgS327_DZ3ol6L2hHJ3kXoOV7sIkdTQ=" alt="mixing ingredients"/>
+      <h1><span class="title-2">MIXING</span></h1>
+    </div>
+    
+    <div class="cooking">
+      <img class="cooking-img" src="https://www.wcrf-uk.org/wp-content/uploads/2021/06/588595864r-LS.jpg" alt="cooking"/>
+      <h1><span class="title-2">COOKING</span></h1>
+    </div>
+    </div>
+
+    <div class="form-body">
+      <form action="/cooking" method="POST">
+        <div class="form-form">
+        <div class="ingredient-form">
+          <label class="ingredient-label" for="ingredient-input">Enter your ingredients:</label>
+          <input type="text" name="ingredient-input" id="input-question" required>
+        </div>
+        <div class="button-form">
+          <button type="submit" name="button" value="caesar">CAESAR</button>
+          <button type="submit" name="button" value="reverse">REVERSE</button>
+          <button type="submit" name="button" value="atbash">ATBASH</button>
+        </div>
+      </div>
+      </form>
+
+      <div class="output">
+        <p>Your cooked cuisine:</p>
+        {% if result %}
+        <p>{{result}}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer-author">Creation by Sophia Nguyen</p>
+      <p class="footer-paragraph">Cyber Chef Created for CLC x RBC</p>
+    </footer>
+    
+  </body>
+  
+</html>
