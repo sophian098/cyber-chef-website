@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyber Chef</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='personality.css') }}">
+  </head>
+  
+  <body>
+    <div class="nav-bar">
+      <a href="{{ url_for('index') }}">
+        <div class="cyber-chef-bar">
+          <img class="logo" src="static/photos/food-logo.png" alt="cyber chef logo"/>
+          <p class="logo-title">CYBER CHEF</p>
+        </div>
+      </a>
+      <nav>
+        <ul class="side-bar">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="{{ url_for('hacks')}}">HACKS</a></li>
+          <li><a href="{{ url_for('cooking')}}">RECIPES</a></li>
+          <li><a href="{{ url_for('signup')}}">SIGN IN</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h1>The 4 Personalities</h1>
+<div class="personalities-section">
+      
+      <div class="box">
+        <img class="personality-img" src="https://www.lifewire.com/thmb/-GiDu5f2FOM-xNvX0YHZWiRQlMo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-954544496-75108142bd9c4d5f9baa12f4709ed0ab.jpg" alt="firewall"/>
+        <h4><span class="title">FIREWALL</span></h4>
+        <div class="box-text">
+          <p>
+            <strong>Personality</strong>: You're the vigilant protector! Just like a firewall, you keep a close watch on everything and ensure nothing harmful gets through. 
+            You're reliable, proactive, and always ready to defend against any threats.
+          </p>
+        </div>  
+      </div>
+      
+      <div class="box">
+        <img class="personality-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWF4Nkrx9PmZ3TYk9Q6bDb2_I7esbczjrU-Q&s" alt="2 factor authentication"/>
+        <h4><span class="title">2FA</span></h4>
+        <div class="box-text">
+          <p>
+            <strong>Personality</strong>: You're the loyal sidekick! Like two-factor authentication, you provide an extra layer of support and protection. 
+            You're dependable, supportive, and always ready to help out. You believe in teamwork and are always there to back up your friends.
+          </p>
+        </div>
+      </div>
+      
+      <div class="box">
+        <img class="personality-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP3FOsoVXxN70ogqCnDGxYDvUkFaL-wNnWsg&s" alt="encryption"/>
+        <h4><span class="title">ENCRYPTION</span></h4>
+        <div class="interact-box">
+          <p>
+            <strong>Personality</strong>: You're the stealthy operator! Like encryption, you work behind the scenes, keeping things under wraps and only revealing information to those who need it. 
+            You're mysterious, undercover, and excel at maintaining confidentiality. You value discretion and are skilled at operating in the shadows.
+          </p>
+        </div>
+    </div>
+        
+      <div class="box">
+        <img class="personality-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7-ouyZy5F2oG0NLwLU3XKDqNmfzCAFDf4kA&s" alt="antivirus"/>
+        <h4><span class="title">ANTIVIRUS</span></h4>
+        <div class="interact-box">
+          <p>
+            <strong>Personality</strong>: You're the fearless warrior! Just like antivirus software, you actively seek out and eliminate threats before they can cause harm. 
+            You're vigilant, aggressive in your defence, and always ready for a challenge. You're always one step ahead to protect those around you.
+          </p>
+      </div>
+      </div>
+  </div>
+    
+    
+    <footer>
+        <p class="footer-author">Creation by Sophia Nguyen</p>
+        <p class="footer-paragraph">Cyber Chef Created for CLC x RBC</p>
+    </footer>
+    
+  </body>
+  
+</html>
