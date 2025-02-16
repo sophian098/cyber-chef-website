@@ -1,4 +1,3 @@
-
 body{
     background-color:rgb(270, 240, 240);
   }
@@ -27,7 +26,6 @@ body{
   }
   
   li{
-    float:right;
     padding:30px;
     margin:0px;
   }
@@ -35,7 +33,11 @@ body{
   li:hover{
     background-color:rgb(230, 190, 190);
   }
-  
+
+.side-bar{
+  display:flex;
+}
+
   a{
     text-decoration:none;
     color:black;
