@@ -26,13 +26,16 @@ ul{
 }
 
 li{
-  float:right;
   padding:30px;
   margin:0px;
 }
 
 li:hover{
   background-color:rgb(230, 190, 190);
+}
+
+.side-bar{
+  display:flex;
 }
 
 a{
