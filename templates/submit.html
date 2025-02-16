@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cooking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='submit.css') }}">
+  </head>
+  
+  <body>
+    <div class="nav-bar">
+      <a href="{{ url_for('index') }}">
+        <div class="cyber-chef-bar">
+          <img class="logo" src="static/photos/food-logo.png" alt="cyber chef logo"/>
+          <p class="logo-title">CYBER CHEF</p>
+        </div>
+      </a>
+      <nav>
+        <ul class="side-bar">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="{{ url_for('hacks')}}">HACKS</a></li>
+          <li><a href="{{ url_for('cooking')}}">RECIPES</a></li>
+          <li><a href="{{ url_for('signup') }}">SIGN IN</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <h1>Welcome to Cyber Chef, {{fname}} {{lname}}!</h1>
+
+    <footer>
+        <p class="footer-author">Creation by Sophia Nguyen</p>
+        <p class="footer-paragraph">Cyber Chef Created for CLC x RBC</p>
+    </footer>
+    
+  </body>
+  
+</html>
