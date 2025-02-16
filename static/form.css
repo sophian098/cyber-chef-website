@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(260, 240, 240);
+  }
+  
+  .logo{
+    height:50px;
+    width:50px;
+  }
+  
+  .logo-title{
+    margin-left:10px;
+  }
+  
+  .cyber-chef-bar{
+    display:flex;
+    margin-left:50px;
+    padding:14px;
+    align-items:center;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+  }
+  
+  li{
+    padding:30px;
+    margin:0px;
+  }
+  
+  li:hover{
+    background-color:rgb(230, 190, 190);
+  }
+  
+  .side-bar{
+    display:flex;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  .nav-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:rgb(250, 190, 190);
+    position:sticky;
+    z-index:10;
+    top:0;
+    box-shadow: 0px 0px 3px;
+  }
+  
+.form-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-button{
+    padding:20px;
+    margin:5px 0px;
+    width:300px;
+}
+
+#submit-button{
+    width:150px;
+}
+
+.entire-form{
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:50px 0px;
+}
+  
+.footer-author{
+    font-size:22px;
+    }
+    
+    .footer-paragraph{
+    font-size:18px;
+    margin-top:-4px;
+    }
+    
+    footer{
+    text-align:center;
+    background-color:rgb(250, 190, 190);
+    padding:60px;
+    box-shadow: 0px 0px 3px;
+    margin-top:100px;
+    }
