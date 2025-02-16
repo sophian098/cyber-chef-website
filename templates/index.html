@@ -18,9 +18,9 @@
       <nav>
         <ul class="side-bar">
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#hacks">HACKS</a></li>
-          <li><a href="#recipes">RECIPES</a></li>
-          <li><a href="#sign-in">SIGN IN</a></li>
+          <li><a href="{{ url_for('hacks')}}">HACKS</a></li>
+          <li><a href="{{ url_for('cooking')}}">RECIPES</a></li>
+          <li><a href="{{ url_for('signup')}}">SIGN IN</a></li>
         </ul>
       </nav>
     </div>
@@ -48,31 +48,35 @@
       </div>
       </a>
       
+      <a href="https://www.allrecipes.com/recipe/15821/aunt-teens-creamy-chocolate-fudge/">
       <div class="box">
         <img class="food-img" src="https://i2.pickpik.com/photos/763/772/886/fudge-sugar-marshmallow-sweet-preview.jpg" alt="fudge"/>
         <h4><span class="title">Firewall Fudge</span></h4>
         <div class="interact-box">
           <img class="interact" src="static/photos/clock.png" alt="clock"/>
-          <p>1h 15mins</p>
+          <p>2h 30mins</p>
           <img class="interact" src="static/photos/heart.png" alt="likes"/>
           <p>2.6k</p>
           <img class="interact" src="static/photos/comment.png" alt="comments"/>
           <p>1.1k</p>
         </div>
       </div>
+      </a>
       
+      <a href="https://www.allrecipes.com/recipe/6806/calzone/">
       <div class="box">
         <img class="food-img" src="https://www.allrecipes.com/thmb/Bwkz2gVOQUJcPYSzOJgD94XDi5Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18874-Real-Italian-Calzones-ddmfs-127-4x3-1-a30a0e72801f42bcb0643ed4b57e8a3c.jpg" alt="calzone"/>
         <h4><span class="title">Cyber Calzone</span></h4>
         <div class="interact-box">
           <img class="interact" src="static/photos/clock.png" alt="clock"/>
-          <p>1h 35mins</p>
+          <p>3h 5mins</p>
           <img class="interact" src="static/photos/heart.png" alt="likes"/>
           <p>4.1k</p>
           <img class="interact" src="static/photos/comment.png" alt="comments"/>
           <p>2.5k</p>
         </div>
       </div>
+      </a>
       
       <div class="box">
         <img class="food-img" src="https://i2.pickpik.com/photos/421/382/533/noodles-dan-dan-food-traditional-preview.jpg" alt="noodles"/>
